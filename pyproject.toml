@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cours-4-parser"
+version = "0.1.0"
+description = ""
+authors = ["rochev90 <k.e.rochev@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
