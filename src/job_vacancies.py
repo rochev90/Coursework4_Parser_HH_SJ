@@ -8,7 +8,7 @@ class SuperJobAPI(ABCVacancies):
     """ Класс для работы с API сайта superjob.ru """
 
     JOB_URL = "https://api.superjob.ru/2.0/vacancies/"
-    api_key = os.getenv('JOB_API_KEY')
+    api_key = "v3.r.119310910.a5a27e9efb3d83362d76bd5560612cf8188ca957.bf0f56866ea8dc56b28cd865adf8e3aa1c3c22b4"
 
     def __init__(self, job_title: str):
         self.job_title = job_title  # Название вакансии
